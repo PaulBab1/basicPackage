@@ -23,6 +23,11 @@ app.get("/", (req, res) => {
   .sendFile(path.resolve(__dirname, './index.html'));
 });
 
+app.get("/favicon.ico", (req, res) => {
+  res.status(200)
+  .sendFile(path.resolve(__dirname, "./images/favicon.png"));
+})
+
 app.get("/jquery", (req, res) => {
   res.status(200)
   .sendFile(path.resolve(__dirname,
