@@ -1,2 +1,3 @@
 # basicPackage
 Basic package to start a front-end project with webpack, babel, express ...
+Use it for dev purposes.
